@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Домашнее задание № 4_пункт_2</title>
+	<link rel="stylesheet" type="text/css" href="styles/style2.css">
+</head>
+<body>
+	<div class="container">
+		<header></header>
+
+		<main><?include "blocks/content2.php" ?></main>
+		<div>
+			<form action="server.php" method="POST" enctype="multipart/form-data">
+				<div>
+					<input type ="submit" name="savePic">
+				</div>
+				<p>Выберите изображения, которые хотите видеть на странице:</p>
+				<div>
+					<input type ="file" name="pic" multiple accept ="image/*">
+				</div>
+				
+			</form>
+			
+
+
+			
+
+
+			
+		</div>
+		<footer></footer>
+		
+	</div>
+</body>
+</html>
