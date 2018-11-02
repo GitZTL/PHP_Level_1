@@ -1,0 +1,10 @@
+.img{
+	border: 3px lightgray solid;
+	float: left;
+	margin: 5px;
+}
+
+.img:hover{
+	border: 3px pink solid;
+	
+}

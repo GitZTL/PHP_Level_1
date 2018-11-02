@@ -1,0 +1,27 @@
+<html>
+
+  <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="../public/styles/style.css">
+  </head>
+  <body>
+    <h2>Галерея фотографий</h2>
+    <h5>Нажмите для просмотра увеличенной фотографии</h5>
+        <!--p>{{ n }}</p>
+        <p>{{ n-1}}</p>
+        <img src="{{ images.0.path }}{{ images.0.name }}" width=300, height = 200>
+        <img src="{{ images.1.path }}{{ images.1.name }}" width=300, height = 200>
+        <img src="{{ images.2.path }}{{ images.2.name }}" width=300, height = 200-->
+
+        {% for i in range(1, n) %}
+        <div class="img">       
+        <a href="img/{{i}}.jpg" target="blank"><img src="img/{{i}}.jpg" width=300, height = 200 alt="{{i}}.jpg"></a>
+        </div>
+       <!--{{i}}-->
+  
+        {% endfor %}
+     <!-- 0, 1, 2, 3-->
+
+        
+  </body>
+</html>
